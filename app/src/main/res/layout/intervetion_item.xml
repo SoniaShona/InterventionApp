@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/numero_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Numéro de l'intervention"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/date_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="Date" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/nom_plombier_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="Plombier"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/type_tv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="Type"/>
+
+</LinearLayout>
